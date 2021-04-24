@@ -1,1 +1,1 @@
-[Image description](https://lucid.app/publicSegments/view/8d26f94a-0429-4070-919f-b2ea83b4d704/image.png)
+![Image description](https://lucid.app/publicSegments/view/8d26f94a-0429-4070-919f-b2ea83b4d704/image.png)
