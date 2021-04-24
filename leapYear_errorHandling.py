@@ -1,5 +1,4 @@
 msg = "Please enter a year: "
-# year = input(msg)
 
 
 while True:
@@ -7,18 +6,16 @@ while True:
     
     try:
         yr = int(year)
-        # int(year) >= 0
-        # break
     except ValueError:
         print("That was not a valid input. Please enter a numeric value.\n")
         continue
 
     else:
-        if int(year) >= 0 and len(year) >= 4:
-            if int(year) % 4 == 0:
+        if yr >= 0 and len(year) >= 4:
+            if yr % 4 == 0:
                 
-                if int(year) % 100 == 0:
-                    if int(year) % 400 == 0:
+                if yr % 100 == 0:
+                    if yr % 400 == 0:
                         print(year + " is a leap year")
                         break
                     else:
