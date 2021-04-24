@@ -5,7 +5,7 @@ msg = "Please enter a year: "
 while True:
     year = input(msg)
 
-    if int(year) >= 0:
+    if int(year) >= 0 and len(year) >= 4:
         if int(year) % 4 == 0:
             
             if int(year) % 100 == 0:
